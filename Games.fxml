@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="587.0" prefWidth="421.0" stylesheets="@Games.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.citytech.games.GamesController">
+   <children>
+      <FlowPane fx:id="fpGames" layoutX="14.0" layoutY="92.0" prefHeight="390.0" prefWidth="413.0">
+         <children>
+            <Label fx:id="lbl_1" onMouseClicked="#onMouseClicked" styleClass="custom-label" text="?" />
+            <Label fx:id="lbl_2" onMouseClicked="#onMouseClicked" styleClass="custom-label" text="?" />
+            <Label fx:id="lbl_3" onMouseClicked="#onMouseClicked" styleClass="custom-label" text="?" />
+            <Label fx:id="lbl_4" onMouseClicked="#onMouseClicked" styleClass="custom-label" text="?" />
+            <Label fx:id="lbl_5" onMouseClicked="#onMouseClicked" styleClass="custom-label" text="?" />
+            <Label fx:id="lbl_6" onMouseClicked="#onMouseClicked" styleClass="custom-label" text="?" />
+            <Label fx:id="lbl_7" onMouseClicked="#onMouseClicked" styleClass="custom-label" text="?" />
+            <Label fx:id="lbl_8" onMouseClicked="#onMouseClicked" styleClass="custom-label" text="?" />
+            <Label fx:id="lbl_9" onMouseClicked="#onMouseClicked" styleClass="custom-label" text="?" />
+         </children>
+      </FlowPane>
+      <Label layoutX="38.0" layoutY="14.0" prefWidth="360.0" styleClass="title-label" text="Tic Tac Toe" />
+      <Button fx:id="btnReset" layoutX="178.0" layoutY="489.0" mnemonicParsing="false" onAction="#reset" prefHeight="27.0" prefWidth="64.0" text="Reset" />
+      <Label fx:id="lblMessage" layoutX="11.0" layoutY="516.0" prefHeight="27.0" prefWidth="397.0" textAlignment="CENTER" />
+      <Label fx:id="lbl_name" layoutX="303.0" layoutY="545.0" text="Garrik Hoyt" textFill="#0ae536">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl_turnLabel" layoutX="17.0" layoutY="482.0" text="Current Turn: ">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl_turn" layoutX="108.0" layoutY="484.0" text="O">
+         <font>
+            <Font name="System Italic" size="12.151898384094238" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
